@@ -3,9 +3,9 @@
     <h5 class="card-title">{{ obj.type }}</h5>
     <p class="card-textt">{{ obj.comment }}</p>
     <p class="card-text">{{ obj.value }}</p>
-    <button @click="deleteI(obj.id)" class="apo btn btn-danger">delete</button>
+    <button @click="deleteI(obj.id)" class="btn btn-danger">delete</button>
     
-    
+
   </div>
   
 </template>
@@ -28,7 +28,7 @@ export default {
 </script>
 
 <style scoped>
-.apo {
+button {
   width: 150px;
   margin: 0 auto;
   text-align: center;
