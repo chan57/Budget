@@ -1,7 +1,9 @@
 <template>
   <div v-bind:style="{ color: color }" class="total-value">
     Balance: {{ total }}
+
   </div>
+  
 </template>
 
 <script>

@@ -36,7 +36,7 @@ export default {
   },
   methods: {
     deleteItem(id) {
-      this.$emit("deleteItem", id);
+      if(confirm('Delete this item?')) this.$emit("deleteItem", id);
     },
   },
 };
